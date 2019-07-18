@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 18px/1.5 'PT Serif', serif;
+}
+
+.container {
+    display: flex;
+    box-shadow: 0px -1px 37px 0px rgba(0,0,0,0.75);
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+.receipt {
+    background: url('../Basic-HTML-CSS/images/image1.png');
+    padding: 2.5rem 1.5rem;
+    flex: 0 0 50%;
+}
+
+.image {
+   display: block;
+   position: relative;
+   overflow: hidden;
+   flex: 0 0 50%;
+}
+
+img {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px dotted #6E9119;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+}
+
+ul {
+    margin: 2rem 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li span {
+    color: #6E9119;
+    font-weight: 900;
+}
+
+.description {
+    margin-bottom: 2.5rem;
+}
+
+table, th, td {
+    border: 1px solid #6E9119;    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
